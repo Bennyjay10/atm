@@ -80,6 +80,16 @@ int transact();
                     //call our transaction method here
                     transaction();
                 }
+                else if (another_transaction==2)
+                {
+                    printf("Thanks for using our ATM service!!");
+                    return 0;
+                }
+                else{
+                    printf("Invalid option inputed!!");
+                    return 0;
+                }
+
                                 
                
                                  break;
@@ -97,7 +107,17 @@ int transact();
                 if(another_transaction==1){
                     //call our transaction meyhod here
                     transaction();
-                }  break;
+                    }
+                      else if (another_transaction==2)
+                {
+                    printf("Thanks for using our ATM service!!");
+                    return 0;
+                }
+                else{
+                    printf("Invalid option inputed!!");
+                    return 0;
+                }
+                 break;
                
                       
                       case 3:
@@ -109,6 +129,15 @@ int transact();
                 if(another_transaction==1){
                     //call our transaction method here
                     transaction();
+                } 
+                 else if (another_transaction==2)
+                {
+                    printf("Thanks for using our ATM service!!");
+                    return 0;
+                }
+                else{
+                    printf("Invalid option inputed!!");
+                    return 0;
                 }
                
                   break;
@@ -122,6 +151,15 @@ int transact();
                     //call our transaction method here
                     transaction();
                 }
+                  else if (another_transaction==2)
+                {
+                    printf("Thanks for using our ATM service!!");
+                    return 0;
+                }
+                else{
+                    printf("Invalid option inputed!!");
+                    return 0;
+                }
                }
                
 
@@ -132,6 +170,9 @@ int transact();
 
        
 int main(){
+    
+   // printf("Would you like to perform another transaction?:");
+
        transaction();
        
 
