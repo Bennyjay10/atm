@@ -6,4 +6,4 @@
 3.check balance
 4.change pin
 
-*The Atm program also has an header file which stores the functions of option 4 of available transactions listed in the atm program 
+*The Atm program also has an header file which stores the functions of option 4 of the available transactions listed in the atm program 
