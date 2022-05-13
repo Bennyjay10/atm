@@ -1,5 +1,7 @@
-Description : *The Atm program consists of various
-transactions which allows the user to 
+Description : *The Atm program consists of 
+various
+transactions 
+which allows the user to 
 1.withdraw 
 2.deposit 
 3.check balance 
