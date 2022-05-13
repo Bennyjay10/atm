@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-Detailed explanation on my atm
-=======
+           ATM PROJECT
+ Description :
+*The Atm program consists of various transactions which allows the user to
+1.withdraw
+2.deposit
+3.check balance
+4.change pin
 
->>>>>>> 0d7771854183183836b455c24d082c98f65fa66f
+*The Atm program also has an header file which stores the functions of option 4 of available transactions listed in the atm program 

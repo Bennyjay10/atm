@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<unistd.h>
+#include<stdlib.h>
 #include"atm.h"
   int pin;
 int option;
@@ -15,7 +15,7 @@ int transact();
              printf("\t\t#======*YOU ARE HIGHLY WELCOME TO BENNYJAY'S BANKING PLC*======# \n");
              sleep(3);
              
-             //PIN = 2410
+             // DEFAULT PIN = 2410
            while(pin!=2410){
                  printf("\n KINDLY INPUT YOUR PIN : ");
                  scanf("%d",&pin);
